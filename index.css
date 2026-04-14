@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bigdiv{
+    width: 100%;
+    background-color: rgb(237, 233, 218);
+    height: 420px;
+    overflow: hidden;
+}
+.firstdiv{
+    display: flex;
+    gap: 70px;
+    background-color: rgb(247, 247, 245);
+}
+.nigerialang{
+    background-color: transparent !important;
+    color: black !important;
+    border-radius: 20px !important;
+    border-color: rgb(204, 203, 202) !important;
+}
+.uk{
+     background-color: transparent !important;
+    color: black !important;
+    border-radius: 20px !important;
+    border-color: rgb(204, 203, 202) !important;
+}
+.numberdiv p{
+    font-size: 16px;
+    color: rgb(79, 101, 130) !important;
+}
+.numberdiv p a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-item{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.nav-link{
+    color: rgb(79, 101, 130) !important;
+    color: rgb(55, 73, 97);
+}
+.navbar{
+    background-color:  rgb(237, 233, 218);
+    padding-left: 37px;
+}
+/* .navbar:hover{
+    scrollbar-color: unset;
+    background-color: white;
+} */
+
+
+.print{
+    width: 700px;
+}
+.print h1{
+    font-size: 67px;
+    color: rgb(55, 73, 97);
+    font-family: "DM Serif Display";
+}
+.print p{
+    font-size: 30px;
+    color: rgb(111, 127, 148);
+}
+span{
+    font-size: 16px;
+}
+.inputdiv{
+
+    width: 500px;
+    border: 1px solid #384a62;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.input{
+    border: none;
+    width: 400px;
+    background-color: transparent;
+}
+.seconddiv{
+    justify-content: space-between;
+    display: flex;
+}
+.seconddiv p{
+    font-size: 16px;
+    color: rgb(214, 126, 128);
+}
+.seconddiv h3{
+    color: #384a62;
+}
+.carddiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.handimg{
+    width: 400px;
+    position: absolute;
+    top: 240px;
+    right: 0px;
+    /* position: absolute;
+    top: 200px;
+    right: 300px; */
+
+}
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 10px;
+    color: rgb(111, 127, 148);
+}
+.card-textspan{
+    font-size: 20px;
+    color: rgb(55, 73, 97);
+
+}
+.card-textspan span{
+    font-size: 15px;
+    color: #708095;
+}
+.btn{
+    background-color: rgb(214, 126, 128);
+    border-color: transparent;
+}
+.btn:hover{
+    background-color: rgb(214, 126, 128);
+    border-color: transparent;
+    text-transform: capitalize;
+}
+.card-img-top{
+    height: 230px;
+
+}
+.card-img-top:hover{
+    /* transform: rotate(width 100px 500px) !important; */
+    transition:1s ease-out !important;
+}
+
+.sponsor{
+    width: 1200px;
+}
+.nigeriaprint{
+    width: 630px;
+}
+.nigeriaprint p{
+    font-size: 20px;
+    color: rgb(79, 101, 130);
+}
+.nigeria h3{
+    color: rgb(55, 73, 97);
+}
+.genbox{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(237, 246, 252);
+}
+.genbox div h2{
+    font-size: 30px;
+    color: rgb(55, 73, 97);
+}
+.tweetdiv{
+    display: flex;
+    gap: 30px;
+}
+.tweetuser{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.tweetuser img{
+    width: 40px;
+    height: 30px;
+    margin-right:10px ;
+}
+.tweetuser p a{
+    text-decoration: none;
+}
+.count{
+    width: 100%;
+    height: 250px;
+}
+.countdiv{
+    display: flex;
+    gap: 100px;
+}
+.countbox{
+    display: flex;
+    width: 300px;
+}
+.countbox img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.countbox p span{
+    color: rgb(103, 127, 158);
+}
+.article{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247, 247, 245);
+}
+.article div h2{
+    color: rgb(55, 73, 97);
+    margin-bottom: 50px;
+}
+.articlediv{
+    display: flex;
+    gap: 80px;
+}
+.articlebox a{
+    color: black;
+}
+.help{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(55, 73, 97);
+}
+.helpdiv{
+    display: flex;
+    gap: 100px;
+}
+.helpbox{
+    width: 250px;
+    height: 200px;
+}
+.helpbox img{
+    width: 200PX;
+}
+.helpbox ul {
+    list-style: none;
+}
+.helpbox ul p{
+    color: rgb(237, 233, 218);
+}
+.helpbox p{
+    color: rgb(237, 233, 218); 
+}
+.helpbox ul li a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    background-color: #cbcac8;
+    font-size: 20px;
+}
