@@ -1,0 +1,127 @@
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .firstdiv {
+        display: none;
+    }
+
+    .navbar {
+        width: 290%;
+        height: 150px;
+    }
+
+    .container-fluid img {
+        width: 300px;
+    }
+
+    .navbar-toggler {
+        /* font-size: 50px; */
+        /* margin-top: -640px; */
+        width: 150px;
+    }
+    #navbarNav{
+        width: 100px;
+        margin-left: 100px;
+    }
+    .bigdiv{
+        width: 290%;
+    }
+    .print{
+        width: 200%;
+    }
+    .print h1{
+        font-size: 80px;
+    }
+    .print span{
+        font-size: 25px;
+    }
+    .inputdiv{
+        width: 600px;
+    }
+    .handimg{
+        position: absolute;
+        left: 850px;
+    }
+    .seconddiv{
+        width: 290%;
+    }
+    .seconddiv p{
+        font-size: 25px;
+    }
+    .seconddiv h3{
+        font-size: 30px !important;
+        /* justify-content: space-between; */
+    }
+    .carddiv{
+        width: 280%;
+        gap: 70px !important;
+    }
+    .card{
+        width: 500px !important;
+        /* height: 200px !important; */
+    }
+    .card img{
+        height: 350px;
+    }
+    .card-body{
+        height: 350px;
+    }
+    .card-title{
+        font-size: 40px;
+    }
+    .card-text{
+        font-size: 25px;
+    }
+    .card-textspan{
+        font-size: 30px;
+    }
+    .card-textspan span{
+        font-size: 25px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .nigeria{
+        width: 280%;
+    }
+    .nigeria h3{
+        font-size: 50px;
+    }
+    .nigeriaprint p{
+        font-size: 30px;
+    }
+    .genbox{
+        width: 290%;
+        height: 1350px;
+    }
+    .genbox div h2{
+        font-size: 50px;
+    }
+    .tweetdiv{
+        /* width: 200%; */
+        flex-direction: column;
+        margin-left:200px ;
+    }
+    .tweetuser{
+        width: 600px;
+        height: 350px;
+    }
+    .tweetuser img{
+        width: 200px;
+        height: 100px;
+    }
+    .tweetuser p{
+        font-size: 30px;
+    }
+    .count{
+        width: 290%;
+    }
+    .count h2{
+        font-size: 50px;
+    }
+}

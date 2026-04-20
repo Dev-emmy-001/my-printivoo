@@ -7,7 +7,7 @@
 .bigdiv{
     width: 100%;
     background-color: rgb(237, 233, 218);
-    height: 420px;
+    min-height: 420px;
     overflow: hidden;
 }
 .firstdiv{
@@ -70,7 +70,8 @@ span{
 }
 .inputdiv{
 
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     border: 1px solid #384a62;
     display: flex;
     background-color: white;
@@ -142,7 +143,7 @@ span{
 }
 
 .sponsor{
-    width: 1200px;
+    max-width: 100%;
 }
 .nigeriaprint{
     width: 630px;

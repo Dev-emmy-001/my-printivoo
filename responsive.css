@@ -1,0 +1,184 @@
+/* =========================
+   GLOBAL FIXES
+========================= */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================
+   TABLET (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+
+  .print {
+    width: 100%;
+  }
+
+  .inputdiv {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .sponsor {
+    width: 100%;
+  }
+
+  .nigeriaprint {
+    width: 100%;
+  }
+
+  .countdiv {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .articlediv {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .helpdiv {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+/* =========================
+   MOBILE (≤768px)
+========================= */
+@media (max-width: 768px) {
+
+  /* Top bar */
+  .firstdiv {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .numberdiv {
+    text-align: center;
+  }
+
+  /* HERO SECTION */
+  .bigdiv {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .print {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .print h1 {
+    font-size: 40px;
+  }
+
+  .print p {
+    font-size: 20px;
+  }
+
+  .handimg {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .inputdiv {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* PRODUCTS */
+  .seconddiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .carddiv {
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+
+  .card {
+    width: 90% !important;
+  }
+
+  /* TESTIMONIALS */
+  .genbox {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .tweetdiv {
+    flex-direction: column;
+  }
+
+  .tweetuser {
+    width: 100%;
+  }
+
+  /* COUNT SECTION */
+  .count {
+    height: auto;
+  }
+
+  .countdiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .countbox {
+    width: 100%;
+  }
+
+  /* ARTICLES */
+  .article {
+    height: auto;
+  }
+
+  .articlediv {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* FOOTER */
+  .help {
+    height: auto;
+  }
+
+  .helpdiv {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (≤480px)
+========================= */
+@media (max-width: 480px) {
+
+  .print h1 {
+    font-size: 30px;
+  }
+
+  .print p {
+    font-size: 16px;
+  }
+
+  .inputdiv {
+    width: 95%;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .navbar .container-fluid {
+    gap: 20px !important;
+  }
+}
